@@ -3,13 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Part_3_1 : MonoBehaviour
-{
+{        
+
     // Start is called before the first frame update
     void Start()
     {
+        Area();
+        print(Area());
         //Area(10, 3);       //Result should be 30
         //Area();            //Result should be 1
         //Area(2.5f, 3.7f);  //Result should be 9.25f
+    }
+    int Area(int Value = 1, int Value2 = 1)
+    {
+        return Value * Value2;
+    }
+    float Area(float Value, float Value2)
+    {
+        return Value * Value2;
     }
 
     //Create a function called Area where you pass in two integer values and
@@ -19,4 +30,5 @@ public class Part_3_1 : MonoBehaviour
 
     //Overload the function by creating another Area function but this one takes in
     //float values and returns a float  (1pt) 
+
 }

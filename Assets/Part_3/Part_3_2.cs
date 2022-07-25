@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Part_3_2 : MonoBehaviour
 {
+    private GameObject
     //Attach this Script to Part_3_Cube
     void Start()
     {
